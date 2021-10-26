@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         --orange: #FF7A29;
         --yellow: #FFCD1E;
 
+        --grey-800: #17171A;
         --grey-700: #29292E;
         --grey-400: #8D8D99;
         --grey-300: #C4C4CC;
@@ -27,6 +28,15 @@ export const GlobalStyle = createGlobalStyle`
     body { 
         background: var(--black);
         color: var(--grey-200);
+    }
+
+    button { 
+        cursor: pointer;
+        border: none;
+    }
+
+    a {
+        text-decoration: none;
     }
 
 `
